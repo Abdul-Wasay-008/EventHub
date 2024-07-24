@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="createEvent.css">
+    <title>Create an Event</title>
+</head>
+
+<body>
+    <div class="logo">EventHub</div>
+    <div class="form">
+        <div class="img">
+            <img src="cEvent.jpg" alt="" srcset="">
+        </div>
+        <div class="text">
+            <div class="main">Event Creation Form</div>
+            <div class="secondary">Please fill out the below form to create an event</div>
+        </div>
+        <div class="fElements">
+            <form action="/create-event" method="post">
+                <input type="text" placeholder="Event Name" name="EName"><br>
+                <input type="text" placeholder="Event Place" name="EPlace"><br>
+                <input type="text" placeholder="Event Time" name="ETime"><br>
+                <input type="text" placeholder="Event Organizer Name" name="EOrganizerName"><br>
+                <input type="text" placeholder="Event Ticket Price" name="TicketCosts"><br>
+                <input type="date" placeholder="Event Date" name="EDate"><br>
+                <button type="submit" type="submit" class="cEvent"><i class="fa-solid fa-plus cIcon"></i>Create an
+                    Event</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

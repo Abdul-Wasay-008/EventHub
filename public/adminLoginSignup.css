@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* background-color: #EDEAE0; */
+    background-color: #E3DAC9;
+}
+
+.logo {
+    font-size: 60px;
+    bottom: 550px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    backdrop-filter: blur(5px);
+    font-family: "Aleo", serif;
+    color: #B96B1E;
+}
+
+.login {
+    width: 18%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 782px;
+    text-align: center;
+    margin-top: 8%;
+    font-family: "Aleo", serif;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+#Header {
+    font-family: "Aleo", serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.username {
+    padding-top: 40px;
+}
+
+.username input {
+    width: 290px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: none;
+    padding-left: 5px;
+    font-family: "Aleo", serif;
+}
+
+.email {
+    padding-top: 22px;
+}
+
+.email input {
+    width: 290px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: none;
+    padding-left: 5px;
+    font-family: "Aleo", serif;
+}
+
+.password {
+    padding-top: 22px;
+}
+
+.password input {
+    width: 290px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: none;
+    padding-left: 5px;
+    font-family: "Aleo", serif;
+}
+
+#password {
+    padding-top: 22px;
+    cursor: pointer;
+    /* text-align: left; */
+    /* padding-left: 255px; */
+    color: #7e4913;
+}
+
+#password:hover {
+    color: #653a0f;
+}
+
+.logBtn {
+    margin-top: 22px;
+}
+
+.logBtn button {
+    height: 40px;
+    width: 290px;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: "Aleo", serif;
+    background-color: #B96B1E;
+    border: none;
+    color: whitesmoke;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.logBtn :hover {
+    background-color: #A6601B;
+}
+
+#or {
+    font-family: "Aleo", serif;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+#google {
+    margin-top: 22px;
+}
+
+#google button {
+    height: 40px;
+    width: 290px;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: "Aleo", serif;
+    background-color: #B96B1E;
+    border: none;
+    color: whitesmoke;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#google :hover {
+    background-color: #A6601B;
+}
+
+.new {
+    padding-top: 60px;
+    /* text-align: left;
+    padding-left: 255px; */
+}
+
+#sign a {
+    color: #7e4913;
+    text-decoration: none;
+}
+
+#sign a:hover {
+    color: #653a0f;
+}

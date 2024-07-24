@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Aleo", serif;
+}
+
+.logo {
+    font-size: 50px;
+    bottom: 550px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+    font-family: "Aleo", serif;
+}
+
+.img {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.img img {
+    width: 650px;
+    height: 200px;
+    object-fit: cover;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text {
+    margin-left: 634px;
+    margin-top: 30px;
+}
+
+.main {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.secondary {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.fElements {
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+} 
+
+.fElements input {
+    margin-top: 20px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    background-color: gainsboro;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.cEvent {
+    margin-top: 40px;
+    width: 300px;
+    height: 33px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+.cEvent i {
+    padding-right: 10px;
+}
+
+.cEvent:hover {
+    cursor: pointer;
+    background-color: #218838;
+}

@@ -1,0 +1,383 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Aleo", serif;
+}
+
+.header-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left-header {
+    padding-left: 250px;
+}
+
+.right-header {
+    padding-left: 1015px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-header i {
+    padding: 15px;
+}
+
+.right-header i:hover {
+    cursor: pointer;
+}
+
+.line {
+    margin-top: 40px;
+    width: 260px;
+    margin-left: 180px;
+    height: 0.4px;
+    background-color: black;
+}
+
+.left-navbar {
+    margin-left: 248px;
+    font-size: 19px;
+    position: absolute;
+}
+
+.left-navbar ul {
+    list-style-type: none;
+    padding-top: 25px;
+}
+
+.left-navbar ul li {
+    padding-top: 40px;
+}
+
+.left-navbar ul li i {
+    margin-right: 20px;
+}
+
+.left-navbar ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.line2 {
+    width: 260px;
+    margin-left: 180px;
+    position: absolute;
+    margin-top: 480px;
+}
+
+.payments {
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 205px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.askari a{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 240px;
+    background-color: #0083cb;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.askari i {
+    padding-right: 10px;
+}
+
+.askari a:hover {
+    background-color: #006fa3;
+}
+
+.silk {
+    position: absolute;
+    margin-top: 50px;
+    background-color: #540726;
+}
+
+.silk a {
+    background-color:#540726;
+}
+
+.silk a:hover {
+    background-color: #540726;
+}
+
+.meezan a{
+    position: absolute;
+    margin-top: 700px;
+    background-color: #701e7d;
+}
+
+.meezan a:hover {
+    background-color:#4a1352;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 640px;
+    position: absolute;
+    margin-left: 480px;
+}
+
+.analytics {
+    margin-left: 57.85%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.flex-container1 {
+    display: flex;
+    float: right;
+    margin-right: 215px;
+    justify-content: center;
+    text-align: center;
+}
+
+.ongoingEvents, .cancelledEvents, .completedEvents {
+    background-color: #E0E0E0;
+    width: 320px;
+    margin: 20px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #D2B48C, #8B4513);
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    color: white;
+}
+
+.ongoingEvents:hover, .cancelledEvents:hover, .completedEvents:hover {
+    box-shadow: 3px 3px 8px #8B4513;
+
+}
+
+.number {
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+.text {
+    margin-top: 14px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    background-color: #F5D1B0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+
+.btn:hover {
+    background-color: #E5A772;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.flex-container2 {
+    display: flex;
+    float: right;
+    margin-right: 215px;
+    margin-top: 20px;
+}
+
+.hr {
+    margin-top: 610px;
+    width: 1030px;
+    margin-left: 650px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 740px;
+    margin-top: 50px;
+}
+
+.buttons button {
+    margin: 15px;
+    width: 400px;
+    height: 48px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.cIcon {
+    padding-right: 10px;
+}
+.canIcon {
+    padding-right: 10px;
+}
+
+.cEvent button{
+    background-color: #28a745;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+}
+
+.cEvent button a,
+.canEvent button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.cEvent button:hover{
+    background-color: #218838;
+    cursor: pointer;
+}
+
+.canEvent button{
+    background-color: #dc3545;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+}
+
+.canEvent button:hover{
+    background-color: #c82333;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #191919;
+    color: whitesmoke;
+}
+
+#changing-text {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    color: whitesmoke;
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Aleo", serif;
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.foot {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footBarKnow {
+    margin-left: 350px;
+}
+
+.footBarKnow ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Aleo", serif;
+}
+
+.footBarKnow ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer ul li {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.know {
+    font-family: "Aleo", serif;
+    font-weight: bold;
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+
+.footBarHelp {
+    padding-left: 180px;
+}
+
+.footBarHelp ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Aleo", serif;
+}
+
+.footBarHelp ul li a:hover {
+    text-decoration: underline;
+}
+
+.help {
+    font-family: "Aleo", serif;
+    font-weight: bold;
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+
+.footBuisness {
+    padding-left: 180px;
+}
+
+.footBuisness ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Aleo", serif;
+}
+
+.footBuisness ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.buisness {
+    font-family: "Aleo", serif;
+    font-weight: bold;
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+
+.footOnline {
+    padding-left: 150px;
+}
+
+.footOnline ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Aleo", serif;
+}
+
+.footOnline ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.online {
+    font-family: "Aleo", serif;
+    font-weight: bold;
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+
+#rights,
+#year {
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Aleo", serif;
+}

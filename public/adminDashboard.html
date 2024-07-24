@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="adminDashboard.css">
+    <title>Dashboard - Admin</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <header class="left-header">
+            <div class="logo">EventHub</div>
+        </header>
+        <header class="right-header">
+            <i class="fa-solid fa-envelope message"></i>
+            <i class="fa-solid fa-bell bell"></i>
+            <i class="fa-solid fa-user user"></i><span class="bg-red-700" id="username"></span>
+        </header>
+    </div>
+    <hr class="line">
+    <div class="left-navbar">
+        <ul>
+            <li><i class="fa-solid fa-chart-pie"></i>Dashboard</li>
+            <li><i class="fa-solid fa-user-tie"></i>Role Admin</li>
+            <li><i class="fa-solid fa-chart-simple"></i>My Account</li>
+            <li><i class="fa-solid fa-gear"></i>Settings</li>
+            <li><i class="fa-solid fa-clock-rotate-left"></i>History</li>
+            <li><i class="logout fa-solid fa-arrow-right-from-bracket"></i>Log Out</li>
+        </ul>
+    </div>
+
+    <hr class="line2">
+    <div class="bottomBar">
+        <footer>
+            <div class="payments">Our Payment Partners</div>
+            <div class="askari"><a href="https://askaribank.com/"><i class="fa-solid fa-building-columns"></i>Askari
+                    Bank</a></div>
+            <div class="askari silk"><a href="https://silkbank.com.pk/"><i class="fa-solid fa-building-columns"></i>Silk
+                    Bank</a></div>
+            <div class="askari meezan"><a href="https://www.meezanbank.com/"><i
+                        class="fa-solid fa-building-columns"></i>Meezan Bank</a></div>
+        </footer>
+    </div>
+
+    <div class="vl"></div>
+
+    <div class="analytics">Analytics</div>
+
+    <div class="flex-container1">
+        <div class="ongoingEvents">
+            <div class="number">2</div>
+            <div class="text">Ongoing Events</div>
+            <a href="events.html"><button type="submit" class="btn">View Details</button></a>
+        </div>
+        <div class="completedEvents">
+            <div class="number">50</div>
+            <div class="text">Completed Events</div>
+            <button type="submit" class="btn">View Details</button>
+        </div>
+        <div class="cancelledEvents">
+            <div class="number">6</div>
+            <div class="text">Cancelled Events</div>
+            <button type="submit" class="btn">View Details</button>
+        </div>
+    </div>
+
+    <div class="flex-container2">
+        <div class="ongoingEvents">
+            <div class="number">10</div>
+            <div class="text">Total Organizers</div>
+            <button type="submit" class="btn">View Details</button>
+        </div>
+        <div class="completedEvents">
+            <div class="number">5</div>
+            <div class="text">Active Organizers</div>
+            <button type="submit" class="btn">View Details</button>
+        </div>
+        <div class="cancelledEvents">
+            <div class="number">2</div>
+            <div class="text">Complaints</div>
+            <button type="submit" class="btn">View Details</button>
+        </div>
+    </div>
+    <hr class="hr">
+
+    <div class="buttons">
+        <div class="cEvent">
+            <a href="createEvent.html"><button type="submit"><i class="fa-solid fa-plus cIcon"></i>Create an
+                    Event</button></a>
+        </div>
+        <div class="canEvent">
+            <a href="cancelEvent.html"><button type="submit"><i class="fa-solid fa-xmark canIcon"></i>Cancel an
+                    Event</button></a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div id="changing-text">Crafting Moments</div>
+        <div class="foot">
+            <div class="footBarKnow">
+                <ul>
+                    <li class="know">Get to Know Us</li>
+                    <li><a href="">Join Us</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">Oppurtunities at EventHub</a></li>
+                    <li><a href="">Security Measures</a></li>
+                </ul>
+            </div>
+
+            <div class="footBarHelp">
+                <ul>
+                    <li class="help">Let Us Help You</li>
+                    <li><a href="">Account Details</a></li>
+                    <li><a href="">Event Details</a></li>
+                    <li><a href="">Transactions History</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+
+            <div class="footBuisness">
+                <ul>
+                    <li class="buisness">Doing Buisness</li>
+                    <li><a href="">Become a sponsor</a></li>
+                    <li><a href="">EventHub Partner Space</a></li>
+                    <li><a href="">Become a member</a></li>
+                </ul>
+            </div>
+
+            <div class="footOnline">
+                <ul>
+                    <li class="online">Our Online Presence</li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="rights">All rights reserved ©</div>
+        <div id="year">2024 - 2025</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="events.css">
+    <title>Event Page</title>
+</head>
+<body>
+    <div class="logo">EventHub</div>
+    <h1>Events</h1>
+    <div id="events-container"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('/events')
+                .then(response => response.json())
+                .then(events => {
+                    const eventsContainer = document.getElementById('events-container');
+                    events.forEach(event => {
+                        const eventElement = document.createElement('div');
+                        eventElement.innerHTML = `
+                            <h2>${event.EName}</h2>
+                            <p>Date: ${event.EDate}</p>
+                            <p>Place: ${event.EPlace}</p>
+                            <p>Time: ${event.ETime}</p>
+                            <p>Organizer: ${event.EOrganizerName}</p>
+                            <p>Ticket Costs: ${event.TicketCosts}</p>
+                        `;
+                        eventsContainer.appendChild(eventElement);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching events:', error);
+                });
+        });
+    </script>
+</body>
+</html>

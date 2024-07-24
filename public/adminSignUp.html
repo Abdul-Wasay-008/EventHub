@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adminLoginSignup.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Admin LogIn</title>
+</head>
+
+<body>
+    <div class="logo">EventHub</div>
+    <div class="login">
+        <div id="Header">Admin SignUp</div>
+        <form action="/signup" method="post">
+            <div class="username"><input type="text" name="username" placeholder="Username"></div>
+            <div class="email"><input type="text" name="email" placeholder="Email"></div>
+            <div class="password"><input type="password" name="password" placeholder="Password"></div>
+            <div id="password">Forget Password?</div>
+            <div class="logBtn"><button>Sign Up</button></div>
+            <div id="or">or</div>
+            <div id="google"><button type="submit">Continue with Google</button></div>
+            <div class="new">Already have an account? <span id="sign"><a href="adminLogin.html">Log In</a></span></div>
+        </form>
+    </div>
+</body>
+
+</html>
